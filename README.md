@@ -20,7 +20,6 @@ npm install
 
 Now you've configured everything you needed to get your app up and running.
 
-
 ### Configure credentials
 
 The project needs your Auth0 domain and client ID in order for the authentication flow to work.
