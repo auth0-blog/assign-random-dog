@@ -26,6 +26,14 @@ export const ProfileComponent = () => {
       <Row>
         <Highlight>{JSON.stringify(user, null, 2)}</Highlight>
       </Row>
+    {user["https://dogfy.com/random_dog"] &&  <div style={{textAlign: 'center'}}>
+    <h2>Our Doggy!</h2 >
+    <img
+        src={user["https://dogfy.com/random_dog"]}
+        alt="Random dog"
+        className="img-fluid profile-picture mb-3 mb-md-0"
+      />
+    </div>}
     </Container>
   );
 };

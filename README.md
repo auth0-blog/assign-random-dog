@@ -12,13 +12,13 @@ npm install
 
 ### Create an SPA on the Auth0 Dashboard
 
-1. Access the Auth0 Dashboard by logging into your account, if you don't have one, [create one by clicking here]();
+1. Access the Auth0 Dashboard by logging into your account, if you don't have one, [you can sign up for free by clicking here](https://a0.to/jtemporal-signup-for-auth0);
 1. Go into the _Applications_ on the left-hand side menu, then select _Applications_;
 1. Click _+ Create Application_ button;
 1. Give your application a name (I picked "dogfy" for the name of my app) then select _Single Page Application_, then click create, this will take you to the application details page;
 1. Move to the _Settings_ tab and set your _callback urls_ and your allowed _logout urls_ to `https://localhost:3000`;
 
-Now you've configured everything you needed to get your app up and running.
+Now you've configured everything you needed on the Auth0 Dashboard to get your app up and running.
 
 ### Configure credentials
 
